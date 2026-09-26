@@ -1,27 +1,43 @@
-# Vivify Quest Port
+# Vivify2
 
-This repository is for the Vivify Quest Port project.
+Vivify2 is a Quest mod for Beat Saber that provides the Vivify visual-only
+note replacement fallback.
 
-- Owner: Julianb183
-- Repository: Vivify-Quest-Port
-- Default branch: main
-- Visibility: Public
-- Status: repository is currently empty / no source files are present yet
+## Release
 
-## Project Overview
+**Version:** `0.4.11`
 
-Vivify Quest Port is a project repository that appears to be in its early setup stage. This README was added to establish the project structure and provide a place to document the project goals, setup steps, and usage.
+**Beat Saber:** `1.40.8_7379`
 
-## Language Composition
+**Mod loader:** Scotland2
 
-No language composition data is currently available for this repository because it does not yet contain source files or code. Once the project begins to take shape, this section can be updated to reflect the actual languages used.
+**Package ID:** `com.beatgames.beatsaber`
 
-## Getting Started
+Download the release package from the
+[GitHub Releases](https://github.com/Julianb183/Vivify-Quest-Port/releases)
+page:
 
-1. Clone the repository.
-2. Add your project files and source code.
-3. Update this README with the project's actual goals, installation instructions, and usage details.
+- [`Vivify2.qmod`](https://github.com/Julianb183/Vivify-Quest-Port/releases/latest/download/Vivify2.qmod)
+
+## Installation
+
+Install `Vivify2.qmod` with a Quest mod manager such as QuestPatcher or
+through the mod manager used for your Beat Saber installation. The package
+declares its required dependencies and installs `libVivify.so` automatically.
+
+Required dependencies:
+
+- Beat Saber Hook `6.4.2` or newer
+- Custom Types `0.18.4` or newer
+- CustomJSONData `0.24.5` or newer
+- Tracks `2.5.3` or newer
+- SongCore `1.1.26` or newer
+- BSML `0.4.55` or newer
+- Paper2 Scotland2 `4.6.4` or newer
+- WebUtils
+- MetaCore `1.0.3` or newer
 
 ## Notes
 
-This repository is a placeholder landing page for the project and can be expanded as development progresses.
+This package is intended for the Beat Saber version listed above. Compatibility
+with other game versions is not guaranteed.
