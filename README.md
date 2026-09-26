@@ -5,7 +5,7 @@ note replacement fallback.
 
 ## Release
 
-**Version:** `0.4.11`
+**Version:** `0.55`
 
 **Beat Saber:** `1.40.8_7379`
 
